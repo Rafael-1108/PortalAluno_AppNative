@@ -4,8 +4,10 @@ export default function PerfilScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.emoji}>👤</Text>
-      <Text style={styles.text}>Tela Perfil</Text>
-      <Text style={styles.subtitle}>Informações do usuário</Text>
+      <Text style={styles.text}>Rafael Santos</Text>
+      <Text style={styles.subtitle}>2TDS1</Text>
+      <Text style={styles.subtitle}>Um desenvolvedor apaixonado por tecnologia, 
+        sempre em busca de novos desafios e aprendizados. </Text>
     </View>
   );
 }
@@ -16,6 +18,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: '#f0f4ff',
+    maxWidth: 300,
+    alignSelf: 'center',
+    padding: 20,
+    borderRadius: 12,
   },
   emoji: {
     fontSize: 48,
